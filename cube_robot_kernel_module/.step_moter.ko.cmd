@@ -1,0 +1,1 @@
+cmd_/home/pi/cube_robot_2/cube_robot_kernel_module/step_moter.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o /home/pi/cube_robot_2/cube_robot_kernel_module/step_moter.ko /home/pi/cube_robot_2/cube_robot_kernel_module/step_moter.o /home/pi/cube_robot_2/cube_robot_kernel_module/step_moter.mod.o;  true
